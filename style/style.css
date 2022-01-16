@@ -3,21 +3,30 @@ body{
     font-size: 700;
 }
 
-/* ---------------first-section------------- */
-/* 
-h3{
-    display: flex;
-} */
+nav h3{
+    margin-left: 5%;
+    margin-top: 5%;
+}
 .first-section{
     display: flex;
 }
 .first-part{
     width: 50%;
-    padding-left: 0;
-    padding-top: 5%;
     margin-left: 5%;
-    /* position: absolute; */
+    transition: transform 0.2s ease-in;
+    
 }
+.first-part img{
+        height: 400px;
+        width: 400px;
+}
+
+
+.dslr:hover {
+    transform: scale(1.3);
+    transition: width 2s linear, height 2s, transform 2s;
+}
+
 .start-line{
     font-size: 3em;
    
@@ -155,9 +164,9 @@ footer{
         
     }
     .first-part{
-        width: 370px;
+        width: 30cm;
         height: 950px;
-        padding-left: 3%;
+        padding-left: 5%;
     }
     .first-part img{
         /* margin: 30%; */
@@ -202,7 +211,7 @@ footer{
     }
     .third-section{
         background-color: rgb(248, 203, 232);
-        width: 550px;
+        width: 750px;
         height: 350px;
         padding-left: 55%;
         padding-bottom: 10%;
@@ -216,7 +225,31 @@ footer{
     }
     footer{
         margin-top: 85%;
-        width: 21cm;
+        width: 25cm;
+    }
+    
+}
+
+/* ------------tablet designs-------------- */
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .first-section{
+        background-color: skyblue;
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .third-row{
+        margin-right: 70%;
+        margin-top: 5%;
+        
+    }
+    .third-section{
+        background-color: rgb(228, 245, 195);
+    }
+    .seemore{
+        margin-left: 40%;
+        font-size: 2em;
     }
     
 }
