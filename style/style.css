@@ -6,6 +6,7 @@ body{
 nav h3{
     margin-left: 5%;
     margin-top: 5%;
+    padding-top: 20px;
 }
 .first-section{
     display: flex;
@@ -65,7 +66,7 @@ nav h3{
 } */
 .collection {
     width: 329px;
-    height: 500px;
+    height: 570px;
     /* border: 2px solid lightgray; */
     padding: 5px;
     border-radius: 5px;
@@ -78,12 +79,17 @@ nav h3{
     /* overflow: hidden; */
 }
 .fa-star {
-    color: peru;
+    color: rgb(233, 127, 22);
     font-size: 12px;
 }
 .dollar{
     font-weight: 350;
+    font-size: 30px;
 }
+/* .ratings{
+    
+    font-weight: 700;
+} */
 .collection-image:hover{
     transform: scale(1.1);
 }
@@ -105,7 +111,11 @@ nav h3{
     
 }
 .fa-star-half-alt{
-    color: peru;
+    color: rgb(233, 127, 22);
+    font-size: 12px;
+}
+.far{
+    color: rgb(233, 127, 22);
     font-size: 12px;
 }
 
